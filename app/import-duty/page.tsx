@@ -56,7 +56,7 @@ export default function ImportDutyPage() {
           </>
         }
         description="Import duty, excise, VAT, IDF, and RDL  all calculated transparently. No surprises at the port."
-        image="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/import-duty.jpg"
         imageAlt="Shipping containers at port"
         height="md"
       />

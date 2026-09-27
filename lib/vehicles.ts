@@ -43,7 +43,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/mercedes-gle-450.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -61,7 +61,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Diesel',
     transmission: 'Automatic',
     drive: '4WD',
-    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/toyota-prado.jpg',
     badges: ['Verified Mileage', 'Locally Assembled'],
   },
   {
@@ -79,7 +79,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/bmw-x5.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
   {
@@ -97,7 +97,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Diesel',
     transmission: 'Automatic',
     drive: '4WD',
-    image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/range-rover-sport.jpg',
     badges: ['Verified Mileage', 'Accident-Free'],
   },
   {
@@ -115,7 +115,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/audi-q7.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -133,7 +133,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/porsche-cayenne.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
   {
@@ -151,7 +151,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: '2WD',
-    image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/toyota-harrier.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -169,7 +169,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1617531653332-bd46c24f2068?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/mazda-cx5.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
   {
@@ -187,7 +187,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/subaru-forester.jpg',
     badges: ['Verified Mileage', 'Accident-Free'],
   },
   {
@@ -205,7 +205,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: '2WD',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/mercedes-c200.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -223,7 +223,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Diesel',
     transmission: 'Manual',
     drive: '4WD',
-    image: 'https://images.unsplash.com/photo-1595515106864-077d30191b8f?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/toyota-hilux.jpg',
     badges: ['Verified Mileage', 'Locally Assembled'],
   },
   {
@@ -241,7 +241,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: '2WD',
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/vw-golf-gti.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
   {
@@ -259,7 +259,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Petrol',
     transmission: 'Automatic',
     drive: 'AWD',
-    image: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/nissan-xtrail.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -277,7 +277,7 @@ export const VEHICLES: Vehicle[] = [
     fuel: 'Diesel',
     transmission: 'Manual',
     drive: '4WD',
-    image: 'https://images.unsplash.com/photo-1609521263047-f8f205293f24?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/isuzu-dmax.jpg',
     badges: ['Verified Mileage', 'Locally Assembled'],
   },
 ];

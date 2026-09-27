@@ -152,7 +152,7 @@ export default function ContactPage() {
           </>
         }
         description="No call centres. No bots. When you reach out, you reach a real person on the team  usually within a few minutes on WhatsApp."
-        image="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/contact.jpg"
         imageAlt="Modern showroom interior"
         height="md"
       />

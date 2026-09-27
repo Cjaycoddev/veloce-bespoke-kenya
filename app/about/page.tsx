@@ -55,7 +55,7 @@ export default function AboutPage() {
         eyebrow="About Veloce Bespoke"
         title={<>Built on trust.<br /><span className="italic text-accent">Driven</span> by obsession.</>}
         description="A Nairobi-based automotive house for people who care how their next car was sourced, priced, and delivered."
-        image="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/about.jpg"
         imageAlt="Luxury vehicle at dusk"
         height="lg"
       />

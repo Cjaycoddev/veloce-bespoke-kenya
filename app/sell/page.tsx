@@ -79,7 +79,7 @@ export default function SellPage() {
         eyebrow="Sell or Trade-In"
         title={<>Turn your car<br />into <span className="italic text-accent">cash</span>.</>}
         description="Fair offers, same-day payment, and we handle every document. Trade against anything in our inventory, or sell outright."
-        image="https://images.unsplash.com/photo-1502877338535-766e1452684a?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/sell.jpg"
         imageAlt="Vehicle ready for sale"
         height="md"
       />

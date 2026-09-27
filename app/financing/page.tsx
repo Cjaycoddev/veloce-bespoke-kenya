@@ -85,7 +85,7 @@ export default function FinancingPage() {
           </>
         }
         description="Adjust the numbers below to see your estimated monthly payment in real time. Then submit a pre-qualification  no impact on your credit score."
-        image="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/financing.jpg"
         imageAlt="Luxury vehicle interior"
         height="md"
       />

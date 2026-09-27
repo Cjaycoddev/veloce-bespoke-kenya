@@ -81,7 +81,7 @@ export default function InventoryPage() {
           </>
         }
         description={`${VEHICLES.length} vehicles available. Filter by budget, body type, fuel, or your ideal monthly payment.`}
-        image="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/inventory.jpg"
         imageAlt="Luxury vehicle lineup"
         height="sm"
       />

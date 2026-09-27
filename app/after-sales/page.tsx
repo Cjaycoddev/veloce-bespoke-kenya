@@ -94,7 +94,7 @@ export default function AfterSalesPage() {
         eyebrow="After-Sales & Service"
         title={<>Keep it <span className="italic text-accent">precise</span>.<br />Keep it for life.</>}
         description="Genuine parts, factory-trained technicians, and a workshop that treats every vehicle like it is our own."
-        image="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1920&q=80"
+        image="/images/heroes/after-sales.jpg"
         imageAlt="Vehicle service workshop"
         height="md"
       />
