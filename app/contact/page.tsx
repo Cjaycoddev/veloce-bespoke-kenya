@@ -20,6 +20,7 @@ import {
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import PageHero from '@/components/PageHero';
 
 // ============================================================
 //  Channel cards  the four primary ways to reach us
@@ -30,23 +31,23 @@ const CHANNELS = [
     icon: MessageCircle,
     label: 'WhatsApp',
     sub: 'Fastest response',
-    value: '+254 700 000 000',
-    href: 'https://wa.me/254700000000?text=Hi%20Veloce%20Bespoke%2C%20I%27d%20like%20to%20talk%20to%20someone.',
+    value: '+254 729 836 734',
+    href: 'https://wa.me/254729836734?text=Hi%20Veloce%20Bespoke%2C%20I%27d%20like%20to%20talk%20to%20someone.',
     accent: true,
   },
   {
     icon: Phone,
     label: 'Call Sales',
     sub: 'MonSat  8am6pm',
-    value: '+254 700 000 000',
-    href: 'tel:+254700000000',
+    value: '+254 729 836 734',
+    href: 'tel:+254729836734',
   },
   {
     icon: Mail,
     label: 'Email',
     sub: 'Replies within 24h',
-    value: 'hello@velocebespoke.co.ke',
-    href: 'mailto:hello@velocebespoke.co.ke',
+    value: 'jonahkimwainaina@gmail.com',
+    href: 'mailto:jonahkimwainaina@gmail.com',
   },
   {
     icon: MapPin,
@@ -124,7 +125,7 @@ export default function ContactPage() {
       `Email: ${form.email}\n` +
       `Subject: ${form.subject}\n\n` +
       `${form.message}`;
-    const url = `https://wa.me/254700000000?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/254729836734?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
     setSent(true);
   };
@@ -141,49 +142,20 @@ export default function ContactPage() {
       {/* ============================================================
           HERO
           ============================================================ */}
-      <section className="relative overflow-hidden border-b border-border/60 bg-bg pt-32 pb-16 md:pt-40 md:pb-24">
-        {/* ambient glow */}
-        <div className="pointer-events-none absolute -top-32 left-1/2 h-[500px] w-[800px] -translate-x-1/2 rounded-full bg-accent/8 blur-[140px]" />
-        <div className="grain pointer-events-none absolute inset-0 opacity-[0.04]" />
-
-        <div className="relative mx-auto max-w-7xl px-5 md:px-8">
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            className="max-w-4xl"
-          >
-            <motion.div
-              custom={0}
-              variants={reveal}
-              className="mb-6 flex items-center gap-3"
-            >
-              <span className="h-px w-10 bg-accent" />
-              <span className="font-display text-[10px] uppercase tracking-[0.4em] text-accent">
-                Contact
-              </span>
-            </motion.div>
-
-            <motion.h1
-              custom={1}
-              variants={reveal}
-              className="font-display text-[42px] font-light leading-[1.02] tracking-tight text-ink sm:text-6xl md:text-7xl lg:text-[92px]"
-            >
-              Let&apos;s talk.
-              <br />
-              <span className="italic text-accent">Properly.</span>
-            </motion.h1>
-
-            <motion.p
-              custom={2}
-              variants={reveal}
-              className="mt-6 max-w-xl text-sm leading-relaxed text-ink-muted md:mt-8 md:text-base"
-            >
-              No call centres. No bots. When you reach out, you reach a real
-              person on the team  usually within a few minutes on WhatsApp.
-            </motion.p>
-          </motion.div>
-        </div>
-      </section>
+            <PageHero
+        eyebrow="Contact"
+        title={
+          <>
+            Let&apos;s talk.
+            <br />
+            <span className="italic text-accent">Properly.</span>
+          </>
+        }
+        description="No call centres. No bots. When you reach out, you reach a real person on the team  usually within a few minutes on WhatsApp."
+        image="/images/heroes/contact.jpg"
+        imageAlt="Modern showroom interior"
+        height="md"
+      />
 
       {/* ============================================================
           CHANNEL CARDS

@@ -97,17 +97,17 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone size={14} className="mt-0.5 shrink-0 text-accent" strokeWidth={1.8} />
-                <a href="tel:+254700000000" className="transition-colors hover:text-ink">
-                  +254 700 000 000
+                <a href="tel:+254729836734" className="transition-colors hover:text-ink">
+                  +254 729 836 734
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail size={14} className="mt-0.5 shrink-0 text-accent" strokeWidth={1.8} />
                 <a
-                  href="mailto:hello@velocebespoke.co.ke"
+                  href="mailto:jonahkimwainaina@gmail.com"
                   className="transition-colors hover:text-ink"
                 >
-                  hello@velocebespoke.co.ke
+                  jonahkimwainaina@gmail.com
                 </a>
               </li>
             </ul>

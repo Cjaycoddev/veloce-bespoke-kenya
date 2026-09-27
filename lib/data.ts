@@ -17,7 +17,7 @@ export const FEATURED_VEHICLES = [
     mileage: '38,400 km',
     price: 'KES 8,950,000',
     monthly: 'KES 148,500/mo',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/mercedes-gle-450.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -27,7 +27,7 @@ export const FEATURED_VEHICLES = [
     mileage: '52,100 km',
     price: 'KES 7,200,000',
     monthly: 'KES 119,800/mo',
-    image: 'https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/toyota-prado.jpg',
     badges: ['Verified Mileage', 'Locally Assembled'],
   },
   {
@@ -37,7 +37,7 @@ export const FEATURED_VEHICLES = [
     mileage: '41,700 km',
     price: 'KES 9,400,000',
     monthly: 'KES 156,200/mo',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/bmw-x5.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
   {
@@ -47,7 +47,7 @@ export const FEATURED_VEHICLES = [
     mileage: '46,900 km',
     price: 'KES 11,200,000',
     monthly: 'KES 185,900/mo',
-    image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/range-rover-sport.jpg',
     badges: ['Verified Mileage', 'Accident-Free'],
   },
   {
@@ -57,7 +57,7 @@ export const FEATURED_VEHICLES = [
     mileage: '35,200 km',
     price: 'KES 9,800,000',
     monthly: 'KES 162,700/mo',
-    image: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/audi-q7.jpg',
     badges: ['Verified Mileage', 'NTSA Cleared'],
   },
   {
@@ -67,7 +67,7 @@ export const FEATURED_VEHICLES = [
     mileage: '39,800 km',
     price: 'KES 12,600,000',
     monthly: 'KES 209,100/mo',
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/vehicles/porsche-cayenne.jpg',
     badges: ['Verified Mileage', 'Service History'],
   },
 ];
