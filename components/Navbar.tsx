@@ -147,11 +147,11 @@ export default function Navbar() {
           {/* Right side */}
           <div className="flex items-center gap-3">
             <a
-              href="tel:+254700000000"
+              href="tel:+254729836734"
               className="hidden items-center gap-2 rounded-full border border-border/80 px-4 py-2 text-xs font-medium tracking-wide text-ink transition-colors hover:border-accent hover:text-accent lg:flex"
             >
               <Phone size={13} strokeWidth={1.8} />
-              +254 700 000 000
+              +254 729 836 734
             </a>
             <Link
               href="/inventory"

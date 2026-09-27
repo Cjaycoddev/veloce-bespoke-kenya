@@ -118,7 +118,7 @@ export default function MobileMenu({ onClose }: { onClose: () => void }) {
           className="mt-10 space-y-3 px-6 pb-10"
         >
           <a
-            href="https://wa.me/254700000000"
+            href="https://wa.me/254729836734"
             className="flex items-center justify-between rounded-xl border border-border/60 bg-surface px-5 py-4 transition-colors hover:border-accent"
           >
             <span className="flex items-center gap-3">
@@ -128,12 +128,12 @@ export default function MobileMenu({ onClose }: { onClose: () => void }) {
             <ArrowUpRight size={16} className="text-ink-dim" />
           </a>
           <a
-            href="tel:+254700000000"
+            href="tel:+254729836734"
             className="flex items-center justify-between rounded-xl border border-border/60 bg-surface px-5 py-4 transition-colors hover:border-accent"
           >
             <span className="flex items-center gap-3">
               <Phone size={16} className="text-accent" strokeWidth={1.8} />
-              <span className="text-sm text-ink">+254 700 000 000</span>
+              <span className="text-sm text-ink">+254 729 836 734</span>
             </span>
             <ArrowUpRight size={16} className="text-ink-dim" />
           </a>

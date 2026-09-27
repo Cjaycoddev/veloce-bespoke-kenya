@@ -13,6 +13,7 @@ import {
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
+import PageHero from '@/components/PageHero';
 import {
   calculateFinancing,
   formatKES,
@@ -74,33 +75,20 @@ export default function FinancingPage() {
       <Navbar />
 
       {/* HERO STRIP */}
-      <section className="relative border-b border-border/60 bg-bg pt-32 pb-14 md:pt-40 md:pb-20">
-        <div className="mx-auto max-w-7xl px-5 md:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: 'easeOut' }}
-            className="max-w-3xl"
-          >
-            <div className="mb-5 flex items-center gap-3">
-              <span className="h-px w-10 bg-accent" />
-              <span className="font-display text-[10px] uppercase tracking-[0.4em] text-accent">
-                Financing
-              </span>
-            </div>
-            <h1 className="font-display text-4xl font-light leading-[1.05] tracking-tight text-ink sm:text-5xl md:text-6xl">
-              Know your monthly.
-              <br />
-              <span className="italic text-accent">Then</span> get approved.
-            </h1>
-            <p className="mt-5 max-w-xl text-sm leading-relaxed text-ink-muted md:text-base">
-              Adjust the numbers below to see your estimated monthly payment in
-              real time. Then submit a pre-qualification  no impact on your
-              credit score.
-            </p>
-          </motion.div>
-        </div>
-      </section>
+            <PageHero
+        eyebrow="Financing"
+        title={
+          <>
+            Know your monthly.
+            <br />
+            <span className="italic text-accent">Then</span> get approved.
+          </>
+        }
+        description="Adjust the numbers below to see your estimated monthly payment in real time. Then submit a pre-qualification  no impact on your credit score."
+        image="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=80"
+        imageAlt="Luxury vehicle interior"
+        height="md"
+      />
 
       {/* CALCULATOR */}
       <section id="calculator" className="relative bg-bg py-16 md:py-24">
@@ -264,7 +252,7 @@ export default function FinancingPage() {
 
                 <a
                   href={
-                    'https://wa.me/254700000000?text=' +
+                    'https://wa.me/254729836734?text=' +
                     encodeURIComponent(
                       `Hi Veloce Bespoke, I'd like to pre-qualify for financing.\n\n` +
                         `Vehicle price: ${formatKES(inputs.vehiclePrice)}\n` +
@@ -441,7 +429,7 @@ export default function FinancingPage() {
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="https://wa.me/254700000000?text=Hi%20Veloce%20Bespoke%2C%20I%27d%20like%20to%20talk%20to%20a%20finance%20officer."
+              href="https://wa.me/254729836734?text=Hi%20Veloce%20Bespoke%2C%20I%27d%20like%20to%20talk%20to%20a%20finance%20officer."
               target="_blank"
               rel="noopener noreferrer"
               className="group inline-flex items-center justify-between gap-3 rounded-full bg-accent px-6 py-4 text-sm font-semibold tracking-wide text-bg transition-all hover:gap-4 sm:py-3.5"
